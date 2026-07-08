@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅のしおりアプリ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 p-4">
+
+    <div class="max-w-2xl mx-auto mb-6">
+        <input type="text" id="searchInput" placeholder="国名で検索..." 
+               class="w-full p-3 rounded-xl border shadow-sm focus:outline-blue-500">
+    </div>
+
+    <div id="content" class="max-w-2xl mx-auto"></div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
